@@ -20,7 +20,7 @@ join_greeting = '''Welcome to the DevOps Journey Discord! We are a new community
 
 YouTube Channel: https://www.youtube.com/channel/UC4Snw5yrSDMXys31I18U3gg
 '''
-
+# new class
 class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged on as {0}!'.format(self.user))
